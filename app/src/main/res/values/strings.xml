@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">slicing_UI</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="headlineWakey">Wakey</string>
+    <string name="headlineSplashWakey">Let\'s get conncected to wakey for healthy llifestyle</string>
+    <string name="descriptionSplashWakey">Explore the most elegant way of achieving your morning routine let\'s build a healthy life.</string>
+    <string name="labelSignInWakey">Sign In</string>
+    <string name="labelSignUpWakey">Sign Up</string>
+    <string name="headlineLoginWakey">Hii There!!</string>
+    <string name="descriptionLoginWakey">Welcome back you\'ve been missed</string>
+    <string name="labelEnterUsername">Enter Username</string>
+    <string name="labelPassword">Password</string>
+    <string name="labelRecoverPassword">Recover Password?</string>
+    <string name="labelOr">or</string>
+    <string name="labelButtonApple">image button apple</string>
+    <string name="labelButtonGoogle">image button google</string>
+    <string name="image_button_facebook">image button facebook</string>
+    <string name="label_dont_have_an_account">Don\'t have an account?</string>
+    <string name="descriptionRegister">Welcome to wakey one stop solution for\nhealthy life</string>
+    <string name="labelEmail">Email</string>
+    <string name="labelTermsConditions"><![CDATA[By signin up you agree to Terms & conditions of \nWakey app]]></string>
+    <string name="label_already_have_an_account">Already have an account?</string>
+</resources>

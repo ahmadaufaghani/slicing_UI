@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".SelectionFragment"
+    android:background="@color/dark_grey">
+
+    <!-- TODO: Update blank fragment layout -->
+    <ImageView
+        android:id="@+id/iv_selector"
+        android:layout_width="@dimen/width_343dp"
+        android:layout_height="@dimen/height_340dp"
+        android:src="@drawable/img_selector"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="@dimen/margin_56dp"/>
+    
+    <TextView
+        android:id="@+id/tv_selector_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/headlineSplashWakey"
+        android:textAppearance="@style/TextAppearance.Wakey.BodyLarge.Bold"
+        android:textColor="@color/white"
+        app:layout_constraintTop_toBottomOf="@id/iv_selector"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="@dimen/margin_72"
+        android:layout_marginHorizontal="@dimen/margin_16dp"
+        android:textAlignment="center"
+        android:gravity="center_horizontal"/>
+    <TextView
+        android:id="@+id/tv_selector_description"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/descriptionSplashWakey"
+        android:textAppearance="@style/TextAppearance.Wakey.BodyMedium.Regular"
+        android:textColor="@color/white"
+        app:layout_constraintTop_toBottomOf="@id/tv_selector_title"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="@dimen/margin_32dp"
+        android:textAlignment="center"
+        android:gravity="center_horizontal"/>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/cl_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/tv_selector_description"
+        android:layout_marginTop="@dimen/margin_80dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent">
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btn_signup"
+            android:layout_width="@dimen/width_170dp"
+            android:layout_height="@dimen/height_56dp"
+            android:text="@string/labelSignUp"
+            android:textAppearance="@style/TextAppearance.Wakey.LabelMedium.Bold"
+            app:layout_constraintStart_toEndOf="@id/btn_signin"
+            app:layout_constraintTop_toTopOf="parent"
+            android:background="@drawable/bg_btn_gray"
+            android:textColor="@color/white"
+            android:layout_marginLeft="-16dp" />
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/btn_signin"
+                android:layout_width="@dimen/width_170dp"
+                android:layout_height="@dimen/height_56dp"
+                android:text="@string/labelSignIn"
+                android:textAppearance="@style/TextAppearance.Wakey.LabelMedium.Bold"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                android:background="@drawable/bg_btn_gradient"
+                android:textColor="@color/white"
+                />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
