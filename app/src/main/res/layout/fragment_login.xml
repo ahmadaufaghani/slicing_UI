@@ -208,13 +208,13 @@
         android:textAppearance="@style/TextAppearance.Wakey.BodyMedium.Regular"
         android:textColor="@color/white"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toStartOf="@id/tv_signup"
+        app:layout_constraintEnd_toStartOf="@id/tv_signupLogin"
         app:layout_constraintHorizontal_chainStyle="packed"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@id/ib_google"/>
 
     <TextView
-        android:id="@+id/tv_signup"
+        android:id="@+id/tv_signupLogin"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginLeft="@dimen/margin_4dp"
